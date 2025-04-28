@@ -1,0 +1,47 @@
+project:
+  name: "BMI Calculator"
+  description: "A simple, user-friendly web application to calculate Body Mass Index (BMI) based on height and weight inputs."
+  technologies:
+    - HTML5
+    - CSS3
+    - JavaScript
+  features:
+    - Simple Interface
+    - Instant Calculation
+    - Responsive Design
+    - BMI Category Interpretation
+    - Input Validation
+  files:
+    - BMICalculator.html
+    - style.css
+    - Script.js
+    - README.md
+    - logobmi.png
+    - image.png
+    - BMI2.png
+  structure:
+    HTML:
+      - Defines a BMI form with fields: height, gender, age, weight.
+      - Displays calculated BMI and a health message.
+      - Contains sections explaining BMI, categories, and calculation methods.
+    CSS:
+      - Styles the layout with a responsive and clean design.
+      - Provides a mobile-friendly experience with media queries.
+      - Styles form, navigation bar, paragraphs, and images.
+    JavaScript:
+      - Handles form submission.
+      - Validates user input.
+      - Calculates BMI and updates results dynamically.
+      - Displays interpretation based on BMI value.
+  images:
+    - logobmi.png: "Logo used in the header."
+    - image.png: "BMI Chart image for visual reference."
+    - BMI2.png: "Additional BMI Chart image."
+  author:
+    name: "Vishesh Jha"
+    contact: "visheshjha456@gmail.com"
+    github: "https://github.com/Visheshjha11/BMI_Calculator"
+  license: "MIT"
+  live_demo: "https://Visheshjha11.github.io/bmi-calculator"
+  notes: 
+    - "Disclaimer: The BMI calculator is for informational purposes only and should not replace professional medical advice."
